@@ -1,0 +1,15 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_primary_blue">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="155dp"
+        android:layout_height="350dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/ic_logodisroot"
+        android:contentDescription="@string/logo"
+        app:srcCompat="@drawable/logodisroot" />
+</RelativeLayout>
